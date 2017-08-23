@@ -80,5 +80,15 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "main": ".eslintrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/folosen/musicApp.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/folosen/musicApp/issues"
+  },
+  "homepage": "https://github.com/folosen/musicApp#readme"
 }
