@@ -1,4 +1,5 @@
 import 'babel-polyfill'
+//import 'babel-polyfill'
 import Vue from 'vue'
 import App from './App'
 import router from './router'
@@ -12,6 +13,7 @@ import 'common/stylus/index.styl'
 // import vConsole from 'vconsole'
 
 fastclick.attach(document.body)
+/*/ fastclick.attach(document.body)
 
 Vue.use(VueLazyload, {
   loading: require('common/image/default.png')
